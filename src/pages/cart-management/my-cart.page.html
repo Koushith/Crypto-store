@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://safientui.netlify.app/index.css" />
+    <link rel="stylesheet" href="./my-cart.page.css" />
+    <link rel="stylesheet" href="../../../index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>My Cart</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <!-- logo -->
+      <h2 class="logo text-2xl">Logo</h2>
+      <!-- search -->
+      <input type="text" placeholder="Search" class="nav-search" />
+
+      <!-- action buttons -->
+      <div class="nav-actions">
+        <button class="btn login-btn">Login</button>
+
+        <div class="nav-actions-icon">
+          <!-- <i class="fa fa-heart-o fa-2x nav-wishlist"></i> -->
+          WishList
+        </div>
+
+        <div class="nav-actions-icon">Cart</div>
+      </div>
+    </nav>
+    <!-- End of nav -->
+
+    <!-- cart container -->
+
+    <div class="cart-container">
+      <div class="cart-main-container flex-center">
+        <h3 class="text text-2xl">MY CART (2)</h3>
+        <div class="cart-manage">
+          <div class="cart-manage-item">
+            <div class="card horizontal-container">
+              <div class="card-horizontal">
+                <img
+                  class="card-img horizontal-img"
+                  src="https://www.tissotwatches.com/media/catalog/product/cache/aaadd316e453df5b08f7f4246fad1a9c/T/1/T125.617.17.051.02_R.png"
+                  alt=""
+                />
+                <div class="card-info">
+                  <div class="card-title">
+                    <div>
+                      <h4>TISSOT SUPERSPORT CHRONO</h4>
+                      <p class="card-description">T125.617.17.051.02</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="disc-price">₹850</p>
+                    <p class="actual-price">₹1500</p>
+                    <p class="price-percentage">(50% OFF)</p>
+                  </div>
+                  <div class="qty">
+                    <button class="minus">-</button>
+                    <input class="qty-count" type="number" value="1" />
+                    <button class="add">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="horizontal-btn">
+                <button class="remove-btn">REMOVE</button>
+                <button class="later-btn">MOVE TO WISHLIST</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-details">
+            <h4 class="heading text-center">PRICE DETAILS</h4>
+
+            <div class="price-calculate">
+              <li>
+                <ul>
+                  <p>Price (2 items)</p>
+                  <p>Rs.2499</p>
+                </ul>
+                <ul>
+                  <p>Discount</p>
+                  <p>-Rs.499</p>
+                </ul>
+                <ul>
+                  <p>Delivery Charges</p>
+                  <p>FREE</p>
+                </ul>
+
+                <ul>
+                  <p>Coupon Discount</p>
+                  <p>-Rs.499</p>
+                </ul>
+              </li>
+            </div>
+
+            <ul class="price-totalAmt">
+              <h4>Total Amount</h4>
+              <h4>Rs.2499</h4>
+            </ul>
+
+            <p class="save-msg">You will save Rs. 1999 on this order</p>
+
+            <div class="primary-btn text-center">
+              <a href="#" class="btn link-btn">Place Order</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
