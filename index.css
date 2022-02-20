@@ -1,5 +1,6 @@
 @import url('./src/pages/auth/auth.page.css');
 @import url('./src/styles/utils.css');
+@import url('./src/pages/wishlist/wishlist.page.css');
 * {
   margin: 0;
   padding: 0;
