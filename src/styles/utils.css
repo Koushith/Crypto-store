@@ -3,3 +3,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.gap-right {
+  gap: 3rem;
+}

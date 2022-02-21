@@ -9,7 +9,6 @@
 
 body {
   background-color: #f7f7f7;
-  overflow: hidden;
 }
 
 nav {
@@ -46,4 +45,62 @@ nav .nav-actions {
 nav .nav-actions-icon {
   font-size: 2rem;
   position: relative;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.cta-container {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.cta-container h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--neutral-white);
+}
+
+.cta-container span {
+  font-size: 3rem;
+  color: var(--neutral-white);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.4rem;
+  background-color: #f66249;
+  color: var(--neutral-white);
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-gap {
+  gap: 1.5rem;
+}
+
+.grid-container h2 {
+  font-size: 2rem;
+}
+.grid-container p {
+  font-size: 1.4rem;
+}
+.grid-container i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.trending-section-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  padding: 4rem;
+}
+
+.trending-section .heading {
+  margin-top: 2rem;
+  margin-left: 4rem;
 }
