@@ -1,6 +1,7 @@
 @import url('./src/pages/auth/auth.page.css');
 @import url('./src/styles/utils.css');
 @import url('./src/pages/wishlist/wishlist.page.css');
+@import url('./src/pages/product-listing/product-listing.html');
 * {
   margin: 0;
   padding: 0;
