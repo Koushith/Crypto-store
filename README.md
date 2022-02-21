@@ -1,4 +1,4 @@
-# ECommerce Store - unpolished
+# ECommerce Store -V-1 - unpolished
 
 WIP- 
 
