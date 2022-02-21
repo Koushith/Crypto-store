@@ -48,6 +48,12 @@ nav .nav-actions-icon {
   position: relative;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--neutral-white);
+  font-size: 1.6rem;
+}
+
 .hero-section {
   position: relative;
 }
